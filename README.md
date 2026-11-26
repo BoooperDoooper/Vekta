@@ -1,5 +1,5 @@
 <p align="center">
-  <img src="assets/vekta_logo.png" alt="Vekta logo" width="160">
+  <img src="https://raw.githubusercontent.com/BoooperDoooper/Vekta/main/assets/vekta_logo.png" alt="Vekta logo" width="160">
 </p>
 
 # Vekta
@@ -13,10 +13,8 @@ results can go to Matplotlib, Manim, PyQt6, or anything else.
 
 ## Installation
 
-Not yet published on PyPI. From a local clone:
-
 ```bash
-python -m pip install -e .
+python -m pip install vekta
 ```
 
 Requires Python 3.11 or later. The only dependency is NumPy.

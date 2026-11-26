@@ -4,15 +4,33 @@ build-backend = "setuptools.build_meta"
 
 [project]
 name = "vekta"
-version = "0.1.0"
-description = "Reusable tools for my technical projects"
+version = "0.1.1"
+description = "NumPy-based numerical tools: grids, finite differences, Laplace solver, Fourier series, and ODE integrators"
 readme = "README.md"
 requires-python = ">=3.11"
+license = "MIT"
+license-files = ["LICENSE"]
+authors = [{ name = "Guillaume Latreille" }]
+keywords = ["numerical", "simulation", "ode", "laplace", "fourier", "numpy"]
+classifiers = [
+    "Development Status :: 3 - Alpha",
+    "Intended Audience :: Science/Research",
+    "Programming Language :: Python :: 3",
+    "Programming Language :: Python :: 3.11",
+    "Programming Language :: Python :: 3.12",
+    "Topic :: Scientific/Engineering :: Physics",
+    "Topic :: Scientific/Engineering :: Mathematics",
+]
 dependencies = ["numpy"]
 
 [project.optional-dependencies]
 plot = ["matplotlib"]
 dev = ["pytest"]
+
+[project.urls]
+Homepage = "https://github.com/BoooperDoooper/Vekta"
+Repository = "https://github.com/BoooperDoooper/Vekta"
+Issues = "https://github.com/BoooperDoooper/Vekta/issues"
 
 [tool.setuptools.packages.find]
 where = ["src"]
