@@ -19,11 +19,12 @@ Not yet published on PyPI. From a local clone:
 python -m venv .venv
 ```
 ```bash
-venv\Scripts\Activate.ps1
+.venv\Scripts\Activate.ps1
 ```
 ```bash
 python -m pip install -e .
 ```
+Replace "." with path to Vekta-main
 
 Requires Python 3.11 or later. The only dependency is NumPy.
 
