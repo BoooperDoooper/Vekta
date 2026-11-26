@@ -16,6 +16,12 @@ results can go to Matplotlib, Manim, PyQt6, or anything else.
 Not yet published on PyPI. From a local clone:
 
 ```bash
+python -m venv .venv
+```
+```bash
+venv\Scripts\Activate.ps1
+```
+```bash
 python -m pip install -e .
 ```
 
