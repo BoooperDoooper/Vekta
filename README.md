@@ -1,3 +1,7 @@
+<p align="center">
+  <img src="assets/vekta_logo.png" alt="Vekta logo" width="160">
+</p>
+
 # Vekta
 
 Small NumPy-based toolkit for numerical simulation work: grids, finite differences,
